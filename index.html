@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Jiosan Cradles and Kickers School</title>
 
+  <!-- Canonical -->
+  <link rel="canonical" href="https://YOURDOMAIN_OR_GITHUB_PAGES_URL/" />
+
+  <!-- Primary Meta -->
   <meta name="description" content="A safe and happy place for little children. Ask about our school today." />
+
+  <!-- Open Graph (EXPLICIT – NO INFERENCE) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jiosan Cradles and Kickers School" />
+  <meta property="og:title" content="Jiosan Cradles and Kickers School" />
+  <meta property="og:description" content="A safe and happy place for little children. Ask about our school today." />
+  <meta property="og:url" content="https://YOURDOMAIN_OR_GITHUB_PAGES_URL/" />
+
+  <!-- REQUIRED og:image -->
+  <meta property="og:image" content="https://YOURDOMAIN_OR_GITHUB_PAGES_URL/preview.jpg" />
+  <meta property="og:image:secure_url" content="https://YOURDOMAIN_OR_GITHUB_PAGES_URL/preview.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Jiosan Cradles and Kickers School" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jiosan Cradles and Kickers School" />
+  <meta name="twitter:description" content="A safe and happy place for little children. Ask about our school today." />
+  <meta name="twitter:image" content="https://YOURDOMAIN_OR_GITHUB_PAGES_URL/preview.jpg" />
+
+  <meta name="theme-color" content="#4DA6FF" />
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -62,6 +90,11 @@
       font-weight:600;
       color:#fff;
       background:var(--blue);
+      transition:opacity .2s ease;
+    }
+
+    .button:hover{
+      opacity:.9;
     }
 
     .button.secondary{
@@ -80,6 +113,7 @@
       margin-top:24px;
       font-size:12px;
       color:#999;
+      line-height:1.6;
     }
   </style>
 </head>
@@ -102,13 +136,14 @@
       Fill a short form. We reply on WhatsApp.
     </div>
 
-    <!-- SECOND BUTTON (FOR QR CODE VERSION ONLY) -->
+    <!-- SECOND BUTTON -->
     <a class="button secondary" href="#" target="_blank">
       I Am Already a Parent
     </a>
 
     <div class="footer">
-      © <span id="year"></span> Jiosan Cradles and Kickers School
+      © <span id="year"></span> Jiosan Cradles and Kickers School.<br>
+      Powered by Fantastic Skills.
     </div>
 
   </div>
@@ -118,4 +153,3 @@
   </script>
 </body>
 </html>
-
